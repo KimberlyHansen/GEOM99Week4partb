@@ -27,23 +27,23 @@
         });
         const view = new MapView({
           map: map,
-          center: [55.69299119259998, 12.599264669491003], // Longitude, latitude
+          center: [55.69299119259998, 12.599264669491003], // *Change Longitude, latitude
           zoom: 13, // Zoom level
           container: "viewDiv" // Div element
         });
         const graphicsLayer = new GraphicsLayer();
         map.add(graphicsLayer);
 
-        const point = { //Create a point
+        const point = { // * Change Create a point
           type: "point",
-          longitude: -118.80657463861,
-          latitude: 34.0005930608889
+          longitude: 55.69299723966214,
+          latitude: 12.59935050017328
        };
         const simpleMarkerSymbol = {
           type: "simple-marker",
-          color: [226, 119, 40],  // Orange
+          color: [128,0,128],  // *Change Purple
           outline: {
-              color: [255, 255, 255], // White
+              color: [255,0,0], // *Change Red
               width: 1
           }
       };
