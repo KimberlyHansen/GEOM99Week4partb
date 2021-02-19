@@ -44,7 +44,7 @@
           color: [128,0,128],  // *Change Purple
           outline: {
               color: [255,0,0], // *Change Red
-              width: 1
+              width: 2
           }
       };
       const pointGraphic = new Graphic({
@@ -56,15 +56,14 @@
        const polyline = {
           type: "polyline",
           paths: [
-              [-118.821527826096, 34.0139576938577], //Longitude, latitude
-              [-118.814893761649, 34.0080602407843], //Longitude, latitude
-              [-118.808878330345, 34.0016642996246]  //Longitude, latitude
+              [12.599264669491003, 55.69299119259998], //* Change Longitude, latitude
+              [-78.83728944627384, 43.862584122161984], //* Change Longitude, latitude
           ]
        };
        const simpleLineSymbol = {
           type: "simple-line",
-          color: [226, 119, 40], // Orange
-          width: 2
+          color: [0, 128, 128], // * Change to teal 
+          width: 3
  };
        const polylineGraphic = new Graphic({
     geometry: polyline,
